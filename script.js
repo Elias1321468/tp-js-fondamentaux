@@ -15,4 +15,13 @@ else if (motDePasseUtilisateur<8) {
     console.log("Accès refusé. Mot de passe incorrect.");
 }
 
-
+const moi = {
+    prenom: "Elias",
+    nom: "Leroy",
+    age: 18,
+    competences: ["HTML", "CSS"]
+};
+ console.log(moi.prenom);
+moi.age = 19;
+moi.ville = "Paris";
+moi
