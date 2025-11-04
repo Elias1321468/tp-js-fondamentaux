@@ -9,8 +9,8 @@ let motDePasseUtilisateur = "secret123";
 if (motDePasseUtilisateur === motDePasseAttendu) {
     console.log("Accès autorisé. Bienvenue !");
     }
-else if (<=8) {
-    console.log(8<);
+else if (motDePasseUtilisateur<8) {
+    console.log(motDePasseUtilisateur>8);
 } else {
     console.log("Accès refusé. Mot de passe incorrect.");
 }
